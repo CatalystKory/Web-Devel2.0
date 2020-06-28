@@ -1,0 +1,11 @@
+#resizable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    border-width: 2px;
+    background-color: lightgrey;
+}
+  #resizable h3 { 
+      text-align: center; 
+      margin: 0; 
+    }
