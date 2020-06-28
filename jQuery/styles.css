@@ -1,11 +1,18 @@
 #resizable { 
     width: 150px; 
-    height: 150px; 
+    height: 150px;
+    min-width: 90px; 
+    min-height: 90px;
     padding: 0.5em;
     border-width: 2px;
+    border-color: black;
     background-color: lightgrey;
 }
   #resizable h3 { 
       text-align: center; 
       margin: 0; 
+      border-width: 2px;
+      border-radius: 5px;
+      border-color: black;
+      background-color: rgb(158, 250, 135);
     }
