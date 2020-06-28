@@ -4,6 +4,17 @@
     min-width: 90px; 
     min-height: 90px;
     padding: 0.5em;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+}
+#also { 
+    width: 150px; 
+    height: 150px;
+    min-width: 90px; 
+    min-height: 90px;
+    padding: 0.5em;
     border-width: 2px;
     border-color: black;
     background-color: lightgrey;
@@ -15,4 +26,9 @@
       border-radius: 5px;
       border-color: black;
       background-color: rgb(158, 250, 135);
+    }
+    #parent {
+        background-color: yellow;
+        width: 500px;
+        height: 500px;
     }
