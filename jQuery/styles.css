@@ -32,3 +32,13 @@
         width: 500px;
         height: 500px;
     }
+    #draggable2 {
+        background-color: wheat;
+        width:100px;
+        height: 100px;
+    }
+    #droppable {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    }
