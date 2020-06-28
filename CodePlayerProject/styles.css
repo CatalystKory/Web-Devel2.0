@@ -40,5 +40,17 @@ body {
     background-color: lightblue;
 }
 .highlightedButton {
-    background-color: grey;
+    background-color: lightgrey;
+}
+textarea{
+    resize:none;
+    border-top: none;
+    border-color: grey;
+}
+.panel {
+    width: 50%;
+    float: left;
+}
+iframe {
+    border:none;
 }
