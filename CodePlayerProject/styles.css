@@ -50,7 +50,12 @@ textarea{
 .panel {
     width: 50%;
     float: left;
+    border-left: none;
 }
 iframe {
     border:none;
+    padding: 3px;
+}
+.hidden{
+    display: none;
 }

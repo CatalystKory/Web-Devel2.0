@@ -37,9 +37,13 @@
 
     <div id="bodyContainer">
 
-        <textarea class="panel" id="htmlPanel">Hello World!</textarea>
+        <textarea class="panel hidden" id="htmlPanel"><p id="paragraph">Hello World!</p></textarea>
 
-        <iframe class="panel" id="outputPanel"></iframe>
+        <textarea class="panel hidden" id="cssPanel">p {color:green}</textarea>
+
+        <textarea class="panel hidden" id="javascriptPanel">document.getElementById("paragraph").innerHTML = "Hello Kory!";</textarea>
+
+        <iframe class="panel hidden" id="outputPanel"></iframe>
 
     </div>
 
