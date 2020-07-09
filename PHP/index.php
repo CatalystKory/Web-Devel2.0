@@ -1,5 +1,14 @@
 <?php
 
-    echo "<h3>Hello World!</h3>";
+    
 
 ?>
+
+<p>What's your name?</p>
+
+<form>
+
+    <input type="text"name="name">
+    <input type="submit" value="Go!">
+
+</form>
